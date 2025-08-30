@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uzum Market</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-white">
+  <div class="hidden md:flex justify-between items-center text-sm bg-gray-100 px-6 py-2 text-gray-700">
+    <div class="flex items-center space-x-4">
+      <span class="cursor-pointer"><i class="fa-solid fa-location-dot"></i> Toshkent</span>
+      <span class="cursor-pointer">Topshirish punktlari</span>
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href="" class="text-purple-600">Sotuvchi bo‘lish</a>
+      <a href="">Topshirish punktini ochish</a>
+      <a href="">Savol-javob</a>
+      <a href="">Buyurtmalarim</a>
+      <span class="flex items-center space-x-1 cursor-pointer">
+        <span class="w-4 h-4 rounded-full bg-green-600 border border-blue-500"></span>
+        <span>O‘zbekcha</span>
+      </span>
+    </div>
+  </div>
+  <div class="hidden md:flex justify-between items-center px-6 py-4 border-b max-w-[1280px] mx-auto">
+    <div class="flex items-center space-x-4">
+      <div>
+        <img class="w-18 h-12 mr-6" src="./assets/uzum-market-seeklogo.png" alt="">
+      </div>
+      <button class="flex items-center space-x-2 bg-purple-100 text-purple-700 px-3 py-2 rounded-lg flex-1">
+        <span><i class="fa-solid fa-layer-group"></i></span>
+        <span>Katalog</span>
+      </button>
+      <div class="flex border rounded-lg overflow-hidden ml-4">
+        <input type="text" placeholder="Mahsulotlar va turkumlar izlash" class="px-4 py-2 w-72 outline-none" />
+        <button class="bg-gray-100 px-4"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-6 text-gray-700">
+      <a href="#" class="flex items-center space-x-1 hover:text-purple-600">
+        <span><i class="fa-solid fa-user"></i></span>
+        <span>Kirish</span>
+      </a>
+      <a href="#" class="flex items-center space-x-1 hover:text-purple-600">
+        <span><i class="fa-solid fa-heart"></i></span>
+        <span>Saralangan</span>
+      </a>
+      <a href="#" class="flex items-center space-x-1 hover:text-purple-600">
+        <span><i class="fa-solid fa-cart-shopping"></i></span>
+        <span>Savat</span>
+      </a>
+    </div>
+  </div>
+  <div class="hidden md:flex space-x-6 px-6 py-3 text-gray-700 text-sm max-w-[1280px] mx-auto">
+    <a href="#" class="flex items-center space-x-1 text-pink-600 font-medium">
+      <span><img class="w-4" src="./assets/iadi.png" alt=""></span>
+      <span>Hafta tovarlari</span>
+    </a>
+    <a href="#">Elektronika</a>
+    <a href="#">Maishiy texnika</a>
+    <a href="#">Kiyim</a>
+    <a href="#">Poyabzallar</a>
+    <a href="#">Aksessuarlar</a>
+    <a href="#">Go‘zallik va parvarish</a>
+    <a href="#">Salomatlik</a>
+    <a href="#">Uy-ro‘zg‘or buyumlari</a>
+    <a href="#">Qurilish va ta’mirlash</a>
+    <a href="#">Yana ▼</a>
+  </div>
+
+  <div class="flex md:hidden justify-between items-center px-4 py-3 border-b">
+    <div class="flex items-center space-x-2">
+      <div>
+        <img class="w-18 h-8 mr-6" src="./assets/uzum-market-seeklogo.png" alt="">
+      </div>
+    </div>
+    <button class="bg-purple-600 text-white px-3 py-1 rounded-lg text-sm">
+      Yuklab olish
+    </button>
+  </div>
+  <nav class="fixed bottom-0 left-0 w-full bg-white border-t shadow-md md:hidden">
+    <div class="flex justify-between items-center text-gray-600">
+      <a href="#" class="flex-1 flex flex-col items-center py-2 hover:text-purple-600">
+        <span><img class="w-8" src="./assets/home.png" alt=""></span>
+        <span class="text-xs">Bosh sahifa</span>
+      </a>
+      <a href="#" class="flex-1 flex flex-col items-center py-2 hover:text-purple-600">
+        <span><i class="fa-solid fa-layer-group"></i></span>
+        <span class="text-xs">Katalog</span>
+      </a>
+      <a href="#" class="flex-1 flex flex-col items-center py-2 hover:text-purple-600">
+        <span><i class="fa-solid fa-cart-shopping"></i></span>
+        <span class="text-xs">Savat</span>
+      </a>
+      <a href="#" class="flex-1 flex flex-col items-center py-2 hover:text-purple-600">
+        <span><i class="fa-solid fa-heart"></i></span>
+        <span class="text-xs">Saralangan</span>
+      </a>
+      <a href="#" class="flex-1 flex flex-col items-center py-2 hover:text-purple-600">
+        <span><i class="fa-solid fa-user"></i></span>
+        <span class="text-xs">Kabinet</span>
+      </a>
+    </div>
+  </nav>
+    <section class="max-w-6xl mx-auto mt-6 px-4">
+    <div class="slider shadow-2xl">
+      <div class="slides">
+        <img src="./assets/Screenshot 2025-08-18 122025.png" alt="">
+        <img src="./assets/Screenshot 2025-08-18 122036.png" alt="">
+        <img src="./assets/Screenshot 2025-08-18 122048.png" alt="">
+        <img src="./assets/Screenshot 2025-08-18 122055.png" alt="">
+        <img src="./assets/Screenshot 2025-08-18 122103.png" alt="">
+        <img src="./assets/Screenshot 2025-08-18 122110.png" alt="">
+      </div>
+    </div>
+  </section>
+<section class="max-w-6xl mx-auto mt-6 px-4">
+  <div class="grid grid-cols-4 items-center justify-center gap-4 mt-6">
+    <div class="flex flex-col items-center justify-center">
+      <img class="w-12" src="./assets/image.png" alt="">
+      <span>Onalar va Bolalar uchun</span>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <img class="w-12" src="./assets/image1.png" alt="">
+      <span>Arzon narxlar kafolati</span>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <img class="w-12" src="./assets/image2.png" alt="">
+      <span>Zamonaviy Bozor</span>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <img class="w-12" src="./assets/3.png" alt="">
+      <span>Maktab bozori</span>
+    </div>
+  </div>
+</section>
+
+  <footer class="border-t mt-10">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-semibold mb-3">Biz haqimizda</h3>
+        <ul class="space-y-2 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-purple-600">Topshirish punktlari</a></li>
+          <li><a href="#" class="hover:text-purple-600">Vakansiyalar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-3">Foydalanuvchilarga</h3>
+        <ul class="space-y-2 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-purple-600">Biz bilan bog‘lanish</a></li>
+          <li><a href="#" class="hover:text-purple-600">Savol-Javob</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-3">Tadbirkorlarga</h3>
+        <ul class="space-y-2 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-purple-600">Uzumda soting</a></li>
+          <li><a href="#" class="hover:text-purple-600">Sotuvchi kabinetiga kirish</a></li>
+          <li><a href="#" class="hover:text-purple-600">Topshirish punktini ochish</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-3">Ilovani yuklab olish</h3>
+        <div class="flex gap-3 mb-4">
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="" class="h-8"></a>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="" class="h-8"></a>
+        </div>
+
+        <h3 class="font-semibold mb-3">Uzum ijtimoiy tarmoqlarda</h3>
+        <div class="flex gap-4">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="" class="h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="" class="h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="" class="h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="" class="h-6"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t text-center text-sm text-gray-500 py-4">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 px-4">
+        <div class="flex gap-5">
+          <a href="#" class="hover:text-purple-600">Maxfiylik kelishuvi</a>
+          <a href="#" class="hover:text-purple-600">Foydalanuvchi kelishuvi</a>
+        </div>
+        <p>«2025© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+      </div>
+    </div>
+  </footer>
+<script src="./app.js"></script>
+</body>
+</html>
+
+</body>
+</html>
